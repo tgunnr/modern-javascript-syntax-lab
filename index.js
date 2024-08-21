@@ -18,30 +18,30 @@ console.log(nums2)
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
-// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
+const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
 
-// const [toppingOne, toppingTwo] = pizzaToppings
+const [toppingOne, toppingTwo] = pizzaToppings
 
-// console.log(toppingOne)
-// console.log(toppingTwo)
+console.log(toppingOne)
+console.log(toppingTwo)
 
 // Exercise 3
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-// const car = {
-//   make: 'Audi',
-//   model: 'q5',
-// };
+const car = {
+  make: 'Audi',
+  model: 'q5',
+};
 
 // Your code here
 
-// const { make, model } = car
+const { make, model } = car
 
-// console.log(make)
-// console.log(model)
+console.log(make)
+console.log(model)
 
 // Exercise 4
 
@@ -164,3 +164,15 @@ var USER_THEME = userSavedTheme || 'light'
 
 // Log the result
 console.log('User theme setting:', USER_THEME);
+
+// Exercise 11
+
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+const adventurer = {
+  name: 'Alice',
+};
+
+let cat = adventurer.cat?.age // Your code here
+
+console.log(cat);
