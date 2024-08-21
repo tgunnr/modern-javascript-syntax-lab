@@ -112,3 +112,21 @@ function combineTwo(noun = 'cat', adjective = 'white') {
 console.log(combineTwo())
 console.log(combineTwo('dog', 'blue'))
 
+// Exercise 9
+
+// Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// Your code here
+
+const pizzaTasty = true
+let pizza = pizzaTasty ? 'yum' : 'yuck'
+
+console.log(pizza)
