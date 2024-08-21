@@ -90,3 +90,6 @@ const userProfile = {
 };
 
 console.log(userProfile)
+
+// Exercise 7
+
